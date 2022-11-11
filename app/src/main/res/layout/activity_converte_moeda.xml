@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ConverteMoeda">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="360dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="50dp"
+        android:text="@string/mtitulo"
+        android:textAlignment="center"
+        android:textSize="14pt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/spinner3"
+        android:layout_width="178dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="132dp"
+        android:layout_marginEnd="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <Spinner
+        android:id="@+id/spinner4"
+        android:layout_width="178dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="252dp"
+        android:layout_marginEnd="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="360dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="80dp"
+        android:onClick="voltaAoMenu"
+        android:text="@string/btnvoltar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button8" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="360dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="80dp"
+        android:onClick="converter"
+        android:text="@string/calcular"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinner4" />
+
+    <EditText
+        android:id="@+id/inicial"
+        android:layout_width="178dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="132dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <TextView
+        android:id="@+id/final1"
+        android:layout_width="178dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="252dp"
+        app:layout_constraintEnd_toStartOf="@+id/spinner4"
+        app:layout_constraintHorizontal_bias="0.65"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

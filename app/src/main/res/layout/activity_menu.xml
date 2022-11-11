@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Menu">
+
+    <TextView
+        android:id="@+id/titulomenu"
+        android:textAlignment="center"
+        android:textSize="16pt"
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:text="@string/titulomenu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="100dp"
+        android:onClick="mostraCarro"
+        android:text="@string/menuop1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titulomenu" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="150dp"
+        android:onClick="saiDaki"
+        android:text="@string/menuop4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button6" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:onClick="mostraPaises"
+        android:text="@string/verpaises"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button7" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:onClick="Moeda"
+        android:text="@string/convertemoney"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button5" />
+</androidx.constraintlayout.widget.ConstraintLayout>

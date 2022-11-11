@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AppCarros</string>
+    <string name="appname">App Carros</string>
+    <string name="titulomenu">MENU</string>
+    <string name="menuop1">Ver Carros Disponíveis</string>
+    <string name="menuop4">SAIR</string>
+    <string name="voltar">Voltar ao MENU</string>
+    <string name="btnvoltar">Voltar ao MENU</string>
+    <string name="verpaises">Visualizar países</string>
+    <string name="convertemoney">Converter Câmbio</string>
+    <string name="mtitulo">Conversor de Moedas</string>
+    <string name="calcular">CALCULAR</string>
+    <string name="appreserva">Reserva de viagens</string>
+</resources>
